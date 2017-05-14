@@ -1,0 +1,105 @@
+html {
+  background: #222;
+}
+
+body {
+  background: inherit;
+}
+
+.container-fluid {
+  text-align: center;
+  color: white;
+  background: #1c0a63;
+  border-bottom: 20px solid #ff5300;
+  text-shadow: 3px 3px 3px #222;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.container-fluid h1 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.container-fluid h4 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.container {
+  background: #222;
+  color: white;
+}
+.row {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2%;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.fa-minus-square,
+.fa-plus-square {
+  font-size: 3rem;
+  vertical-align: middle;
+}
+
+.fa-minus-square:hover,
+.fa-plus-square:hover {
+  text-shadow: 1px 1px 3px #ff5300;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.fa-minus-square:active,
+.fa-plus-square:active,
+.fa-minus-square.pressed,
+.fa-plus-square.pressed{
+  text-shadow: 1px 1px 3px #1c0a63;
+  opacity: 0.8;
+  -webkit-transform: translate(1px, 1px);
+  -moz-transform: translate(1px, 1px);
+  transform: translate(1px, 1px);
+}
+
+.col-sm-3 span {
+  vertical-align: middle;
+  margin: 2rem;
+  cursor: default;
+}
+
+.col-sm-3 p:first-of-type {
+  font-size: 2rem;
+  margin: 5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ff5300;
+  letter-spacing: 1.5px;
+}
+
+.time {
+  font-size: 4rem;
+}
+
+.btn {
+  color: white;
+  border: 1px solid #222;
+  background: #1c0a63;
+  font-size: 2rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.fa-repeat {
+  font-size: 2rem;
+}
+
+#footer {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  margin: 0;
+}

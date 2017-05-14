@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link rel="stylesheet" href="timer.css">
+  </head>
+  <body>
+    
+    <header class="container-fluid">
+      
+          <h1>Pomotomo</h1>
+          <h4>Increase Productivity, Take a Break!</h4>
+        
+    </header>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <p>Work Time</p>
+          <p class="display">
+            <i class="fa fa-minus-square" aria-hidden="true"></i><span class="time" id="workTime">25</span><i class="fa fa-plus-square" aria-hidden="true"></i>
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <p>Play Time</p>
+          <p class="display">
+            <i class="fa fa-minus-square" aria-hidden="true"></i><span class="time" id="playTime">5</span><i class="fa fa-plus-square" aria-hidden="true"></i>
+          </p>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row">
+        <div class="btn-group">
+          <button id="startBtn" class="btn btn-primary btn-lg"><i class="fa fa-play"></i></button>
+          <button id="resetBtn" class="btn btn-primary btn-lg"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <p id="footer"><a href="https://freecodecamp.com"><i class="fa fa-free-code-camp" aria-hidden="true"></i> freeCodeCamp</a>
+    </p>
+  </body>
+</html>
